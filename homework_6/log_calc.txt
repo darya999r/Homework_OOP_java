@@ -1,0 +1,4 @@
+Jan 17, 2023 7:33:38 PM LoggerCalc myLog
+INFO: 45.0 - 15.0 = 30.0
+Jan 17, 2023 7:38:53 PM LoggerCalc myLog
+INFO: 85.0 + 23.6 = 108.6
