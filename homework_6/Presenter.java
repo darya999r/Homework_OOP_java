@@ -1,8 +1,10 @@
+
+//класс запуска калькулятора
 public class Presenter {
     public static void main(String[] args){
-        View v = new View();
+        view.ParseLine v = new view.ParseLine();
         Model calculator = new Model(v.getA(), v.getOperation(), v.getB());
-        View.result(calculator.getInstance().getResult());
-        LoggerCalc.myLog(View.myLog(v.getA(), v.getOperation(), v.getB(), calculator.getInstance().getResult()));
+        view.Result.result(calculator.getInstance().getResult());
+        LoggerCalc.myLog(view.ResultStrLog.myLog(v.getA(), v.getOperation(), v.getB(), calculator.getInstance().getResult()));
     }
 }

@@ -1,6 +1,7 @@
 package calculations;
 
-public class Plus implements ICalculator {
+//класс для нахождения суммы двух чисел
+public class Plus implements I__Calculator {
     private double a;
     private double b;
   

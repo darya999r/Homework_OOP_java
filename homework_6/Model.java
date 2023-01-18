@@ -1,3 +1,7 @@
+
+//класс для рассчетов и возвращения результата
+//при введении отличного от (+, -, *, /) оператора, 
+//выдает ошибку и выводит сообщение в терминал
 public class Model {
     private String operation;
     private double a;
@@ -9,7 +13,7 @@ public class Model {
         this.b = b;
     }
 
-    public calculations.ICalculator getInstance() {
+    public calculations.I__Calculator getInstance() {
         switch (operation) {
             case "+":
                 return new calculations.Plus(a, b);

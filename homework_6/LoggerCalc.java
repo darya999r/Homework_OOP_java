@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.util.logging.*;
 import java.util.logging.FileHandler;
 
+//класс логирования производимых вычислений
+//при возникновении ошибки выдает сообщение с ошибкой
 public class LoggerCalc {
     static void myLog(String res) {
         Logger logger = Logger.getLogger(Presenter.class.getName());

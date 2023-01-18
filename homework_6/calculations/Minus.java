@@ -1,6 +1,7 @@
 package calculations;
 
-public class Minus implements ICalculator {
+//класс для нахождения разности двух чисел
+public class Minus implements I__Calculator {
     private double a;
     private double b;
 

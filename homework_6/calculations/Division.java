@@ -1,6 +1,7 @@
 package calculations;
 
-public class Division implements ICalculator{
+//класс для нахождения частного двух чисел
+public class Division implements I__Calculator{
     private double a;
     private double b;
 

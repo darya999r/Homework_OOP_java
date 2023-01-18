@@ -1,6 +1,7 @@
 package calculations;
 
-public class Multiplication implements ICalculator{
+//класс для нахождения произведения двух чисел
+public class Multiplication implements I__Calculator{
     private double a;
     private double b;
 
